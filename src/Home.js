@@ -16,7 +16,7 @@ function Home() {
   
   return (
     <div className="homepage">
-      {data.map((d)=>(
+      {data?.map((d)=>(
          
         <div key={d.id}>
         <div className="details row">
